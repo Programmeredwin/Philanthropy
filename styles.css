@@ -1,0 +1,97 @@
+/* Resetting default margin and padding for all elements */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Styling header */
+h1 {
+    font-size: 60px;
+    text-align: center;
+    padding:0;
+    background-color: purple;
+    font-family: fantasy;
+    color: white;
+}
+h2{
+    font-size: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+    text-align: center;
+}
+
+/* Styling navigation bar */
+.topnav {
+    background-color: rgb(57, 57, 57); /* Dark background color */
+    overflow: hidden;
+}
+
+.topnav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.topnav ul li {
+    float:left;
+}
+
+.topnav ul li a {
+    display: block;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Change color on hover */
+.topnav ul li a:hover {
+    background-color: purple;
+    color: black;
+}
+
+#comments {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 5px solid purple;
+    border-radius: 60px;
+}
+#comments h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.comment {
+    margin-bottom: 20px;
+}
+.comment p {
+    margin: 3px 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#comment-form textarea {
+    width: 100%;
+    height: 100px;
+    margin-bottom: 10px;
+}
+.delete-button {
+    background-color: purple; /* Set the background color of the button */
+    color: #fff; /* Set the text color of the button */
+    border: none; /* Remove the border */
+    padding: 5px 10px; /* Add padding to the button */
+    cursor: pointer;
+}
+.comment-button {
+    background-color: purple; /* Set the background color of the button */
+    color: #fff; /* Set the text color of the button */
+    border: none; /* Remove the border */
+    padding: 5px 10px; /* Add padding to the button */
+    cursor: pointer;
+}
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #333; /* Dark background color */
+    color: white;
+}
